@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: sql12596322
+    url: jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12596322
+    password: VaXsNm5ZaE
+  cloud:
+    config:
+      enabled: 'false'
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+server:
+  error:
+    include-message: always
